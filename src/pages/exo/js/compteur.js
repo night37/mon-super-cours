@@ -17,5 +17,5 @@ window.addEventListener("load",() => {
 reset.addEventListener("click",()=> {
     sessionStorage.setItem("compteur_mensonge", compteur.textContent = 0)
     progress.value = compteur.textContent
-    console.log(progress.value);
+    console.log(progress.value);    
 })
