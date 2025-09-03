@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "daisyui": "^5.1.1",
+    "daisyui": "^5.1.6",
     "easter-egg-collection": "^1.4.56",
     "vite": "^7.1.2"
   },

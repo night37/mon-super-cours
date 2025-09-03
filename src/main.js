@@ -2,6 +2,11 @@ const date = new Date
 const headerBrand = document.querySelector('#header-brand').textContent ="coucou je m'appel Guillaume :)"
 const copyright = document.querySelector('#copyright').textContent = `Copyright ©- ${date.getFullYear()} Tous droits réservés par MonSite`
 
+
+console.log(import.meta.env.VITE_SOME_KEY) // "123"
+console.log(import.meta.env.VITE_DB_PASSWORD) // undefined
+
+
 //* On est dans /src/main.js
 
 // ! ⬇ Ancienne version de base (counter) 
