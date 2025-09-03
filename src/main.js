@@ -1,7 +1,7 @@
+import collection from 'easter-egg-collection'
 const date = new Date
 const headerBrand = document.querySelector('#header-brand').textContent ="coucou je m'appel Guillaume :)"
 const copyright = document.querySelector('#copyright').textContent = `Copyright ©- ${date.getFullYear()} Tous droits réservés par MonSite`
-
 
 //* On est dans /src/main.js
 
